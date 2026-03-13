@@ -19,7 +19,7 @@ Welcome to the landing page for my web development works. This repository serves
 ## 🚀 Projects Included
 
 - **NeoJackpot**: A slot machine web application.
-- **Web App**: Main portal for advanced web applications.
+- **Vlogs**: A platform for sharing video logs and stories.
 
 ## 📦 Deployment
 
