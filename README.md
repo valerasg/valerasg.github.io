@@ -18,6 +18,7 @@ Welcome to the landing page for my web development works. This repository serves
 
 ## 🚀 Projects Included
 
+- **Esteganografia**: A web-based tool for hiding secret messages within images.
 - **NeoJackpot**: A slot machine web application.
 - **Vlogs**: A platform for sharing video logs and stories.
 

@@ -112,6 +112,20 @@ header p {
     gap: 30px;
 }
 
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 40px 0 20px;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-title i {
+    color: #00ffaa;
+}
+
 .project-card {
     position: relative;
     display: block;
@@ -142,6 +156,46 @@ header p {
     font-weight: 300;
     line-height: 1.6;
     opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.tech-tag {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 4px 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover .tech-tag {
+    border-color: rgba(0, 255, 170, 0.3);
+    background: rgba(0, 255, 170, 0.05);
+    opacity: 1;
+}
+
+.featured-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #00ffaa, #0088ff);
+    color: var(--bg-dark);
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 3;
 }
 
 .card-glow {
