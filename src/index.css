@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-float: float 20s infinite ease-in-out alternate;
+  @keyframes float {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(50px, 50px); }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-[#0f111a] text-[#f8f8f2] min-h-[100vh] flex justify-center items-start py-6 sm:py-12 relative overflow-hidden font-['Outfit',sans-serif] m-0;
+  }
+}
